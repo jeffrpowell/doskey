@@ -10,6 +10,7 @@ doskey cdamw=cd C:\dev\projects\asset-manager-tools\asset-manager-web\$*
 doskey cdpuppet=cd C:\puppet\puppet ^& git pull
 doskey restartnginx=call "U:\helpful code\nginx.bat"
 doskey myuser=cd %MYUSER%$* $T dir /B
+doskey build=npm install ^& npm prune ^& npm run dev-build
 
 doskey aliases=doskey /macros
 
