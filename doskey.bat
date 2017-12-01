@@ -4,7 +4,7 @@ REM 2 navigate to the HKEY_CURRENT_USER\SOFTWARE\Microsoft\Command Processor key
 REM 3 add a new string value called "AutoRun" and set the value to "U:\helpful code\doskey.bat"
 
 SET MYUSER="C:\dev\user\jeffpowell\"
-SET LOGFORMAT="%%h < %%p: %%s (%%an)"
+SET LOGFORMAT="%%h < %%p : %%an @ %%ci%%n%%s%%n"
 
 REM Navigation
 doskey cdam=cd C:\dev\projects\asset-manager-tools\$*
